@@ -22,7 +22,7 @@ The project is organized as follows:
   - Evaluating strategies and visualizing results (Boxplots).
 
 - **`core.py`** A helper module designed for high-performance simulation. It contains:
-  - `fast_bfd`: Numba-accelerated Best-Fit Decreasing algorithm.
+  - `bfd`: Numba-accelerated Best-Fit Decreasing algorithm.
   - `worker_simulate_episode`: Worker function for multiprocessing simulations.
   - `AirportDataGen`: Synthetic data generator for stochastic flight schedules.
 
